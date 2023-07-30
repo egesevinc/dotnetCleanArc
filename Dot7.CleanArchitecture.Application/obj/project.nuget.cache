@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ms/nVkjmdct1ajLHcA9h0zsOLureOuJWvX+B/qCc97K6bpeHum9+0Ng14dIQO76Vxz1HLM0jEWKhk8r0Iic7sg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\usr\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\usr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\usr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\usr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\usr\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
