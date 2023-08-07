@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sFBXrowthE9u3b3PWZeLkXFWVyfVeALOiSbVeVr4AdnkbYpq+VdYYPimqawK9R1xmDuYMGtU4MrN4fvyVV5S9Q==",
+  "dgSpecHash": "DCjzQj2Du3JIGe/4JzoL/r80AiZd1XsG05FDa098KejSAupuuKodAiem+8E6GmRFoH4rcGnDhhm/4E+q4TiCCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

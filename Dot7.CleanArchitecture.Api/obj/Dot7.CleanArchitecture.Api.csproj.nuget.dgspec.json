@@ -1,37 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj": {}
+    "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj": {
+    "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj",
         "projectName": "Dot7.CleanArchitecture.Api",
-        "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj",
-        "packagesPath": "C:\\Users\\usr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\obj\\",
+        "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\Dot7.CleanArchitecture.Api.csproj",
+        "packagesPath": "C:\\Users\\Amatis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Amatis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj"
+              "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj"
               },
-              "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj"
+              "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj"
               }
             }
           }
@@ -46,6 +52,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -74,34 +84,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj": {
+    "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj",
         "projectName": "Dot7.CleanArchitecture.Application",
-        "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj",
-        "packagesPath": "C:\\Users\\usr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\obj\\",
+        "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj",
+        "packagesPath": "C:\\Users\\Amatis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Amatis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj"
+              "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -116,6 +132,22 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -141,26 +173,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj": {
+    "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj",
         "projectName": "Dot7.CleanArchitecture.Domain",
-        "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj",
-        "packagesPath": "C:\\Users\\usr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\Amatis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Amatis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -194,37 +232,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
+    "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
         "projectName": "Dot7.CleanArchitecture.Infrastructure",
-        "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\usr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Amatis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\usr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Amatis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj": {
-                "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj"
+              "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj"
               },
-              "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\Users\\usr\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj"
+              "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Domain\\Dot7.CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -239,6 +283,26 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -264,7 +328,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

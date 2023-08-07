@@ -10,3 +10,15 @@ C:\Users\usr\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.
 C:\Users\usr\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\refint\Dot7.CleanArchitecture.Domain.dll
 C:\Users\usr\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.pdb
 C:\Users\usr\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\ref\Dot7.CleanArchitecture.Domain.dll
+c:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\bin\Debug\net7.0\Dot7.CleanArchitecture.Domain.deps.json
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\bin\Debug\net7.0\Dot7.CleanArchitecture.Domain.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\bin\Debug\net7.0\Dot7.CleanArchitecture.Domain.pdb
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.csproj.AssemblyReference.cache
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.AssemblyInfoInputs.cache
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.AssemblyInfo.cs
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\refint\Dot7.CleanArchitecture.Domain.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\Dot7.CleanArchitecture.Domain.pdb
+c:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Domain\obj\Debug\net7.0\ref\Dot7.CleanArchitecture.Domain.dll
