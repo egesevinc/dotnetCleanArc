@@ -3748,11 +3748,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
       "projectName": "Dot7.CleanArchitecture.Infrastructure",
-      "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
+      "projectPath": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Amatis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\obj\\",
+      "outputPath": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

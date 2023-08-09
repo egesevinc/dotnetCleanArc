@@ -6,5 +6,12 @@ public class GetAllBeachesResponse
     public string? BeachName { get; set; }
     public string? Place { get; set; }
     public string? ImageUrl { get; set; }
+    
 
+}
+
+public class GetAllBeachesResponseWithCount
+{
+    public List<GetAllBeachesResponse> Beaches { get; set; }
+    public int TotalCount { get; set; }
 }

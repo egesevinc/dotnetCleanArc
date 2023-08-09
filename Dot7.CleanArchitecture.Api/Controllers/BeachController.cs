@@ -16,7 +16,7 @@ public class BeachController : ControllerBase
         _mediator = mediator;
     }
     [HttpGet]
-    public async Task<IActionResult> GetBeachByFilter([FromQuery] GetAllBeachesRequest request)
+    public async Task<IActionResult> GetByFilter([FromQuery] GetAllBeachesRequest request)
     {
         var result = await _mediator.Send(request);
         return Ok(result);
@@ -29,14 +29,14 @@ public class BeachController : ControllerBase
         var id = await _mediator.Send(payload);
         return Ok(id);
     }
-    [HttpPost("delete")]
+    [HttpDelete("delete")]
     public async Task<IActionResult> DeleteAsync(DeleteBeachRequest payload)
     {
         var beachName = await _mediator.Send(payload);
         return Ok(beachName);
     }
 
-    [HttpPost("update")]
+    [HttpPut("update")]
     public async Task<IActionResult> UpdateBeachAsync(UpdateBeachRequest payload)
     {
         var id = await _mediator.Send(payload);

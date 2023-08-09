@@ -48,6 +48,8 @@ C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\MediatR.dll
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
@@ -118,5 +120,13 @@ C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\obj\Debug\net7.0\Dot7.CleanArchitecture.Api.pdb
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\obj\Debug\net7.0\Dot7.CleanArchitecture.Api.genruntimeconfig.cache
 C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\obj\Debug\net7.0\ref\Dot7.CleanArchitecture.Api.dll
-C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\FluentValidation.dll
-C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Amatis\Dot7CleanArchitecture\dotnetCleanArc\Dot7.CleanArchitecture.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll

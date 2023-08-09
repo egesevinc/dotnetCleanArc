@@ -36,8 +36,8 @@
               "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj": {
                 "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Application\\Dot7.CleanArchitecture.Application.csproj"
               },
-              "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj"
+              "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj"
               }
             }
           }
@@ -59,6 +59,14 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -236,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
+    "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
         "projectName": "Dot7.CleanArchitecture.Infrastructure",
-        "projectPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Amatis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

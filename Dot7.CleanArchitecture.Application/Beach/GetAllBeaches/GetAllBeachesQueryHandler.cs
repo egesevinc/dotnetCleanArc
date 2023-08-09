@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Dot7.CleanArchitecture.Application.Beach.GetAllBeaches
 {
-    public class GetAllBeachesQueryHandler : IRequestHandler<GetAllBeachesRequest, List<GetAllBeachesResponse>>
+    public class GetAllBeachesQueryHandler : IRequestHandler<GetAllBeachesRequest, GetAllBeachesResponseWithCount>
     {
         private readonly IMyWorldDbContext _myWorldDbContext;
         private readonly IMapper _mapper;
@@ -21,33 +21,44 @@ namespace Dot7.CleanArchitecture.Application.Beach.GetAllBeaches
             _mapper = mapper;
         }
 
-        public async Task<List<GetAllBeachesResponse>> Handle(GetAllBeachesRequest request, CancellationToken cancellationToken)
+        public async Task<GetAllBeachesResponseWithCount> Handle(GetAllBeachesRequest request, CancellationToken cancellationToken)
         {
+            var query = _myWorldDbContext.Beach.AsQueryable();
+
+            if (!string.IsNullOrEmpty(request.Place))
+            {
+                query = query.Where(b => b.Place.Contains(request.Place));
+            }
+            if (!string.IsNullOrEmpty(request.BeachName))
+            {
+                query = query.Where(b => b.BeachName.Contains(request.BeachName));
+            }
+
+            // Calculate the total count of matching records
+            int totalCount = await query.CountAsync(cancellationToken);
+
             int pageNumber = request.PageNumber; // The page number requested by the client
             int pageSize = request.PageSize;     // The page size requested by the client
 
             // Calculate the number of items to skip based on the page number and size
             int itemsToSkip = (pageNumber - 1) * pageSize;
 
-            var query = _myWorldDbContext.Beach.AsQueryable();
-
-            if(!string.IsNullOrEmpty(request.Place)){
-                query = query.Where(b => b.Place == request.Place);
-            }
-            if (!string.IsNullOrEmpty(request.BeachName))
-            {
-                query = query.Where(b => b.BeachName == request.BeachName);
-            }
- 
             query = query.OrderBy(b => b.Id)
                          .Skip(itemsToSkip)
                          .Take(pageSize);
 
             // Project the results into GetAllBeachesResponse using AutoMapper
-            var result = await query.ProjectTo<GetAllBeachesResponse>(_mapper.ConfigurationProvider)
-                                    .ToListAsync(cancellationToken);
+            var paginatedBeaches = await query.ProjectTo<GetAllBeachesResponse>(_mapper.ConfigurationProvider)
+                                              .ToListAsync(cancellationToken);
 
-            return result;
+            // Create the response model with the paginated records and the total count
+            var response = new GetAllBeachesResponseWithCount
+            {
+                Beaches = paginatedBeaches,
+                TotalCount = totalCount
+            };
+
+            return response;
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c6Uj9AcnxzrAE8XpAN8tFaeEWzBR9aptzQl6CSdFHFEtB0XZLqWbna7wgUsN/Cw33uOYlWHrnPzTKBerRu5eMA==",
+  "dgSpecHash": "VgzGprXwBmhCWYF22Ml0nUgTEFYVaXan95S5Y+ySuvALfrD3ZzRuu0EBGE8IibNFrjnZrvTIagbF3OsboaZYIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\Amatis\\Dot7CleanArchitecture\\dotnetCleanArc\\Dot7.CleanArchitecture.Infrastructure\\Dot7.CleanArchitecture.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amatis\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Amatis\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

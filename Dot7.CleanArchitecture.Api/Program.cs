@@ -2,9 +2,16 @@ using Dot7.CleanArchitecture.Infrastructure;
 using Dot7.CleanArchitecture.Application;
 using Dot7.CleanArchitecture.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
+
+var logger = new LoggerConfiguration()
+    .WriteTo.Console() // You can add more sinks (e.g., file, database, etc.) as needed
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
 // Add services to the container.
 builder.Services.AddDbContext<MyWorldDbContext>(options =>
 {
@@ -31,6 +38,9 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseSerilogRequestLogging(); // Add this line to enable request logging with Serilog
+
+    // Your existing middleware registrations and configurations...
 }
 
 app.UseHttpsRedirection();
